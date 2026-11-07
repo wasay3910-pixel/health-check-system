@@ -1,0 +1,8 @@
+*.o
+health_check
+*.exe
+*.dat
+.env
+.idea/
+.vscode/
+.DS_Store
