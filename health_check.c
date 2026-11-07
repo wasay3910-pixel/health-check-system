@@ -181,7 +181,7 @@ static void print_report(const HealthInput *h) {
            bp_category(h->systolic, h->diastolic));
     printf("Heart rate: %d bpm (%s)\n", h->heart_rate, hr_category(h->heart_rate));
     printf("Temp:       %.1f C (%s)\n", h->temperature_c, temp_category(h->temperature_c));
-    printf("Blood sugar:%.0f mg/dL (%s)\n", h->blood_sugar, sugar_category(h->blood_sugar));
+    printf("Blood sugar: %.0f mg/dL (%s)\n", h->blood_sugar, sugar_category(h->blood_sugar));
     printf("-----------------------------------\n");
     printf("Risk flags: %d\n", flags);
     printf("Overall risk level: %s\n", overall_risk(flags));
